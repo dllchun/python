@@ -7,7 +7,7 @@ root.geometry("400x200")
 root.title("URL Shortener")
 root.configure(bg="#49A")
 url = StringVar()
-url_address = StringVar()
+url_address = StringVar() 
 
 def urlshortener():
     urladdress = url.get()
